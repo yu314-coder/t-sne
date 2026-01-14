@@ -1,0 +1,103 @@
+PRIVACY POLICY FOR t-SNE EXPLORER
+
+Last Updated: January 14, 2026
+
+Developer: Yu, Yao-hsing
+Application: t-SNE Explorer
+Store ID: 9P969D6N7P6J
+
+1. OVERVIEW
+t-SNE Explorer is a transparent t-SNE (t-Distributed Stochastic Neighbor Embedding)
+visualization tool designed to help users analyze and visualize high-dimensional data
+in 2D space. This privacy policy explains our data handling practices.
+
+2. DATA COLLECTION
+t-SNE Explorer DOES NOT collect, transmit, or share any personal information or user data.
+
+3. LOCAL DATA STORAGE
+The application stores the following data LOCALLY on your device only:
+   - User-uploaded CSV files and images
+   - Generated datasets (synthetic points, MNIST data)
+   - t-SNE computation results
+   - Application settings and preferences
+
+All data is stored in the following local directory:
+   C:\Users\<YourUsername>\.t-sne\
+
+This data is NOT transmitted to any external servers or third parties.
+
+4. MNIST DATASET
+When you choose to load the MNIST handwritten digits dataset:
+   - The dataset is downloaded from OpenML (sklearn's fetch_openml)
+   - Data is downloaded directly to your local machine
+   - No usage analytics or download tracking is performed
+   - The dataset is cached locally for future use
+
+5. INTERNET CONNECTIVITY
+The application requires internet connection ONLY for:
+   - Downloading the MNIST dataset (one-time, on user request)
+   - No analytics, telemetry, or tracking data is transmitted
+   - No advertisements or external content is loaded
+
+6. NO THIRD-PARTY SERVICES
+t-SNE Explorer does NOT use:
+   - Analytics services (Google Analytics, etc.)
+   - Advertising networks
+   - Cloud storage services
+   - User tracking or profiling tools
+   - Crash reporting services that transmit data externally
+
+7. DATA SECURITY
+   - All data processing occurs locally on your device
+   - No data is uploaded to remote servers
+   - You have full control over your data
+   - You can delete all stored data by removing the .t-sne folder
+
+8. PERMISSIONS
+The application requires the following permissions:
+   - File System Access: To read uploaded CSV/image files and save results
+   - Internet Access: To download MNIST dataset (optional, user-initiated only)
+   - Desktop Access: To display the application window
+
+9. CHILDREN'S PRIVACY
+t-SNE Explorer does not knowingly collect any information from children or anyone else.
+The application is safe for users of all ages.
+
+10. OPEN SOURCE
+The application's source code is transparent and can be reviewed to verify
+our privacy claims.
+
+11. YOUR RIGHTS
+You have the right to:
+   - Access all your locally stored data (in .t-sne folder)
+   - Delete all your data at any time
+   - Use the application completely offline (except MNIST download)
+   - Export your results in various formats
+
+12. DATA RETENTION
+   - Data is retained locally until you manually delete it
+   - Uninstalling the application does NOT automatically delete the .t-sne folder
+   - To completely remove all data, manually delete C:\Users\<YourUsername>\.t-sne\
+
+13. CHANGES TO THIS POLICY
+Any changes to this privacy policy will be reflected in application updates.
+The "Last Updated" date at the top will be modified accordingly.
+
+14. CONTACT INFORMATION
+For questions or concerns about this privacy policy:
+   - Developer: Yu, Yao-hsing
+   - Application: t-SNE Explorer
+   - Store ID: 9P969D6N7P6J
+   - Package Family Name: YuYao-hsing.T-SNE_c5s549jf2x494
+
+15. SUMMARY
+t-SNE Explorer is a privacy-focused application that:
+   ✓ Processes all data locally
+   ✓ Does NOT collect personal information
+   ✓ Does NOT transmit user data
+   ✓ Does NOT use analytics or tracking
+   ✓ Gives users full control over their data
+   ✓ Requires internet only for optional MNIST download
+
+Your privacy is important to us. t-SNE Explorer is designed to be completely
+transparent and respect your data privacy at all times.
